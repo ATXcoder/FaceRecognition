@@ -52,8 +52,6 @@ namespace AccordFaceID
             DBOX_Camera.Enabled = false;
 
             // Start the video capture on a new thread
-            //_cameraThread = new Thread(new ThreadStart(webcam));
-            //_cameraThread.Start();
             webcam();
         }
 
